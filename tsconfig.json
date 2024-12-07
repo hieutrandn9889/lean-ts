@@ -3,7 +3,7 @@
     /* Projects */
 
     /* Language and Environment */
-    "target": "ES6", // es2015
+    "target": "es2019",
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
 
@@ -13,8 +13,10 @@
     /* JavaScript Support */
 
     /* Emit */
+    "sourceMap": true,
     "outDir": "./dist/",
     "removeComments": true,
+    "noEmitOnError": true,
 
     /* Interop Constraints */
     "esModuleInterop": true,
@@ -31,5 +33,6 @@
 
     /* Completeness */
     "skipLibCheck": true
-  }
+  },
+  "include": ["./src/"]
 }
